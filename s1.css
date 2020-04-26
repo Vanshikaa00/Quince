@@ -1,0 +1,326 @@
+html{
+	scroll-behavior: smooth;
+}
+.fixit{
+	position: fixed;
+	z-index:1;
+	overflow: hidden;
+  top: 0;
+	width:100%;
+}
+.rr{
+	color:#011839;
+}
+.rrb{
+	background-color: #011839;
+}
+.brandtext{
+font-family: 'Staatliches', cursive;
+font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 50px;
+	letter-spacing: 2px;
+	  text-shadow: 3px 3px white;
+}
+.menufont{
+font-family: 'Montserrat', sans-serif;
+font-size:15px;
+letter-spacing: 2px;
+color:black;
+font-weight: bold;
+}
+.rsrvstyling{
+	color:white;
+	background-color: #011839;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+.rsrvstyling{
+	color:white;
+	background-color: #011839;
+	padding: 3px;
+	display: block;
+  }
+}
+.page-img
+        {
+           
+            background: url('kenny-luo-WMqgowJED6I-unsplash.jpg') no-repeat center;
+            -webkit-background-size: 100% 100%;
+            -moz-background-size:  100% 100%;
+            -o-background-size:  100% 100%;
+            background-size:  100% 100%;
+            display:table;
+             min-height:800px;
+            width: 100%;
+        }
+    .page-img .hero
+        {
+            background: rgba(0,0,0,0.3);
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+           
+        }
+    .page-img .hero h1, .page-img .hero p
+        {
+            color:#ffffff;
+        }
+@media only screen and (max-width:768px){
+.page-img{ 
+     height: 250px;
+   }
+  .page-img .hero p{
+     text-align: justify;
+     text-align-last: center;
+     font-size: 15px;     
+ }
+}
+.heroimgtext{
+	 background: rgba(0,0,0,0.3);
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            color:white;
+
+}
+.c1{
+	font-size:120px;
+	 background: rgba(0,0,0,0.3);
+color:white;
+font-family: 'Amatic SC', cursive;
+text-align: center;
+ display: table-cell;
+ padding-top: 170px;
+}
+.c2{
+	font-size:29px;
+color:white;
+font-family: 'Dosis', sans-serif;
+
+}
+.c3{
+	background-color:#FFC107;
+	color:black;
+	letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+      
+	padding:10px; 
+}
+.base{
+	z-index: 1;
+}
+.top{
+	 z-index: 2;
+}
+.c4{
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 300;
+	font-family: 'Crimson Text', serif;
+	color:#6B788B;
+	background-color: white;
+	padding:50px 30px 30px 30px;
+	border-radius: 2px;
+}
+.c5{
+	font-family: 'Playfair Display SC', serif;
+	font-weight: lighter;
+	font-size: 40px;
+	color:black;
+	text-align: center;
+}
+.c6{
+	align-self: center;
+	border-top:1.1px solid black;
+
+}
+.c7{
+	border-radius: 50%;
+	max-width:100%;
+	max-height: 100%;
+}
+.c8{
+	background-color: #011839;
+	padding:70px;
+
+}
+.c9{
+	max-height:37%;
+	max-width:69%;
+}
+#container {
+  position: relative;
+  z-index: 0;
+}
+#num1,
+#num2 {
+  position: absolute;
+  left: 50px;
+}
+/* num2 will be on top of num1 */
+#num1 {
+  z-index: 1;
+  color:white;
+
+}
+#num2 {
+	color:white;
+margin:0 30px 0 690px ;
+  z-index: 2;
+}
+.c10{
+	margin:100px 0 0 0;
+	
+}
+.c11{
+padding:40px;
+font-size: 23px;
+	font-style: normal;
+	font-weight: 300;
+	font-family: 'Crimson Text', serif;
+	color:#6B788B;
+	background-color: white;
+	border-radius: 2px;
+}
+.c12{
+		background-color: #011839;
+		position:relative;
+	
+}
+.c13{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+.image {
+    background: url('matthew-reyes-2H6lc192WdM-unsplash.jpg') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+.c14{
+	padding:70px;
+}
+.c15{
+	font-size: 38px;
+	text-align: center;
+	font-family: 'Liu Jian Mao Cao', cursive;
+}
+.c16{
+	font-size: 20px;
+	font-style: normal;
+
+	font-family: 'Poiret One', cursive;
+	color:black;
+	background-color: white;
+	padding:50px 30px 30px 0px;
+
+}
+.c17{
+	background-color: #011839;
+	padding:50px;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+.c18{
+	
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color:#6B788B;
+	background-color: white;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.imageee{
+	
+	max-height: 100%;
+	max-width: 100%;
+}
+.c19{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
+
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+  flex: 25%;
+  
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.
+.fixit2{
+
+	max-width:auto;
+}
+
+#div-1 {
+ position:relative;
+}
+#div-1a {
+ position:absolute;
+ top:0px;
+ right:18px;
+
+}
+.xc::hover{
+	color:black;
+}
+
+@media (max-width: 480px) {
+ .tobedisappeared img { display: none; }
+}
+.footertext{
+	font-family: 'Cinzel Decorative', cursive;
+	color:white;
+	letter-spacing: 2px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  max-height:30%;
+}
+.footsett{
+	background-color:  #011839;
+}
+
+
